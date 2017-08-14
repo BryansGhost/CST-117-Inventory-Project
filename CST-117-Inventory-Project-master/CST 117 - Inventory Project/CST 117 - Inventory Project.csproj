@@ -59,6 +59,11 @@
     <Compile Include="DrinksUI.Designer.cs">
       <DependentUpon>DrinksUI.cs</DependentUpon>
     </Compile>
+    <Compile Include="InventoryPasswordSQLdocDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InventoryPasswordSQLdocDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="MenuUI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +105,9 @@
     <EmbeddedResource Include="MyBoxUI.resx">
       <DependentUpon>MyBoxUI.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PasswordUI.resx">
+      <DependentUpon>PasswordUI.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PayNowUI.resx">
       <DependentUpon>PayNowUI.cs</DependentUpon>
     </EmbeddedResource>
@@ -112,6 +120,17 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="InventoryPasswordSQLdocDataSet.xsc">
+      <DependentUpon>InventoryPasswordSQLdocDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="InventoryPasswordSQLdocDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>InventoryPasswordSQLdocDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="InventoryPasswordSQLdocDataSet.xss">
+      <DependentUpon>InventoryPasswordSQLdocDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -124,6 +143,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="InventoryPasswordSQLdoc.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
