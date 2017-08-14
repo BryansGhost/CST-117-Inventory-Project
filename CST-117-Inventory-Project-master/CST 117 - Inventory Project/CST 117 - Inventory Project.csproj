@@ -93,6 +93,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TESTFORM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TESTFORM.Designer.cs">
+      <DependentUpon>TESTFORM.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="DonutUI.resx">
       <DependentUpon>DonutUI.cs</DependentUpon>
     </EmbeddedResource>
@@ -120,6 +126,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="TESTFORM.resx">
+      <DependentUpon>TESTFORM.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="InventoryPasswordSQLdocDataSet.xsc">
       <DependentUpon>InventoryPasswordSQLdocDataSet.xsd</DependentUpon>
     </None>

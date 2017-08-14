@@ -28,7 +28,22 @@ namespace CST_117___Inventory_Project
         //Button will check password list 
         private void LogInButton_Click(object sender, EventArgs e)
         {
-
+            if (UserNameBox.Text == "Admin") //Default for testing
+            {
+                if (PasswordBox.Text == "Password1") // Default for testing
+                {
+                    new TESTFORM().Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Username or Password is incorrect!");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Username or Password is incorrect!");
+            }
         }
     }
 }

@@ -45,5 +45,12 @@ namespace CST_117___Inventory_Project
             DonutForm.Show(this);
             Hide();
         }
+
+        private void LogInAccessButton_Click(object sender, EventArgs e)
+        {
+            PasswordUI Password = new PasswordUI();
+            Password.Show();
+            this.Hide();
+        }
     }
 }

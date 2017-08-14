@@ -32,6 +32,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.LogInAccessButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -79,11 +80,22 @@
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
+            // LogInAccessButton
+            // 
+            this.LogInAccessButton.Location = new System.Drawing.Point(24, 590);
+            this.LogInAccessButton.Name = "LogInAccessButton";
+            this.LogInAccessButton.Size = new System.Drawing.Size(211, 42);
+            this.LogInAccessButton.TabIndex = 4;
+            this.LogInAccessButton.Text = "<Employeee Access>";
+            this.LogInAccessButton.UseVisualStyleBackColor = true;
+            this.LogInAccessButton.Click += new System.EventHandler(this.LogInAccessButton_Click);
+            // 
             // MenuUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(878, 644);
+            this.Controls.Add(this.LogInAccessButton);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -101,6 +113,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button LogInAccessButton;
     }
 }
 

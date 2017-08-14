@@ -51,3 +51,5 @@ C:\Users\bryya\Desktop\NEW CST 117\CST-117-Inventory-Project\CST-117-Inventory-P
 C:\Users\bryya\Desktop\NEW CST 117\CST-117-Inventory-Project\CST-117-Inventory-Project-master\CST 117 - Inventory Project\obj\Debug\CST 117 - Inventory Project.pdb
 C:\Users\bryya\Desktop\NEW CST 117\CST-117-Inventory-Project\CST-117-Inventory-Project-master\CST 117 - Inventory Project\bin\Debug\CST 117 - Inventory Project.pdb
 C:\Users\bryya\Desktop\NEW CST 117\CST-117-Inventory-Project\CST-117-Inventory-Project-master\CST 117 - Inventory Project\obj\Debug\CST_117___Inventory_Project.PasswordUI.resources
+C:\Users\bryya\Desktop\NEW CST 117\CST-117-Inventory-Project\CST-117-Inventory-Project-master\CST 117 - Inventory Project\bin\Debug\InventoryPasswordSQLdoc.mdb
+C:\Users\bryya\Desktop\NEW CST 117\CST-117-Inventory-Project\CST-117-Inventory-Project-master\CST 117 - Inventory Project\obj\Debug\CST_117___Inventory_Project.TESTFORM.resources
